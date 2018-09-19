@@ -33,8 +33,8 @@ defmodule Corsica.Mixfile do
 
   defp deps() do
     deps = [
-      {:cowboy, "~> 2.1"},
-      {:plug, "~> 1.5"},
+      {:cowboy, "~> 2.4"},
+      {:plug, "~> 1.6.3"},
       {:ex_doc, "~> 0.15", only: :dev}
     ]
 
